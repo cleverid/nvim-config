@@ -1,6 +1,28 @@
-# Горячие клавиши Vim
+## Instal Plug
+
+```bash
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
+
+Run command to intall all plugin
+```
+:PlugInstall
+```
+
+Need install:
+- vim-plug - see above
+- ripgrep
+- rust-analyzer
+
+
+## Горячие клавиши Vim
 
 ```
+NerdTree
+ctrl+ww - Switch to code and back
+R - refresh file list
+
 i - insert mode
 a - insert mode перенос на следующую букву
 A - insert mode курсор на конец строки
@@ -38,6 +60,10 @@ dd - удалить строку
 cw - change word
 C - заменить все символы до конца строки
 D - удалить до конца строки
+
+Terminal
+:term - open terminal in window
+:! <command> - run one command
 
 Макросы
 q1 - записать макрос с номером 1
