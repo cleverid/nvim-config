@@ -54,6 +54,8 @@ w - в конец слова
 b - back word предыдущее слово
 e - конец слова
 . - repeat last action in key mode
+Shift - x - delete to left
+x - delete to right
 
 5w - перепрыгнуть на 5 слов вперед
 F3 - поиск "3"
