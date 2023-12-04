@@ -20,8 +20,16 @@ Need install:
 
 ```
 NerdTree
-ctrl+ww - Switch to code and back
+ctrl+ww - Switch to hirizontal split windows
+ctrl+w + hjkl - Switch split window to side by key
+ctrl+w + HJKL - Move split window to side by key
+:vs - vertical split
+:sp - horizontal split
+i in file NERDTree open with horizontal split
+s in file NERDTree open with vertical
+o in file NERDTree open
 R - refresh file list
+Shift+i - view hidden file
 
 i - insert mode
 a - insert mode перенос на следующую букву
