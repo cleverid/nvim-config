@@ -32,6 +32,8 @@ Shift+i - view hidden file
 Split windows
 :vs - vertical split
 :sp - horizontal split
+
+Change size split windows
 ctrl + w N 
     "+" - increase
     "-" - descriase
@@ -39,6 +41,7 @@ ctrl + w N
     "_" - set height
     "<" - to left
     ">" - to right
+    "=" - to equel
 
 i - insert mode
 a - insert mode перенос на следующую букву
