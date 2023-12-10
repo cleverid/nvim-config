@@ -46,6 +46,7 @@ ctrl + w N
 i - insert mode
 a - insert mode перенос на следующую букву
 A - insert mode курсор на конец строки
+Shift I - go to start line and insert mode
 o - insert mode создание новой строки снизу и курсор в начало
 O - -/-         аналогично, но строка выше
 gg - в начало файла
@@ -53,6 +54,8 @@ G - в конец файла
 w - в конец слова
 b - back word предыдущее слово
 e - конец слова
+^ - go to first char in line
+0 - go to start line
 . - repeat last action in key mode
 Shift - x - delete to left
 x - delete to right
